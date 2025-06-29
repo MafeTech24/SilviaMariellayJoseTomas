@@ -14,9 +14,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- FONTS -->
-     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!-- JS -->
-     <link defer src="./js/script.js">
+     <script defer src="./js/script.js"></script>
+     <script defer src="../js/bioTomas.js"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -55,44 +60,46 @@
     </header>
     <main>
       <!-- Contenedor principal -->
-      <div class="container-fluid mb-0 pb-0 principal">
-        <h1>José Tomás Martínez Zárate</h1>
+      <div class="container-fluid mb-0 pb-0 principal tomas">
+        <h1 class="text-center fw-bold fst-italic pt-4 pb-4">José Tomás Martínez Zárate</h1>
 
+        <div id="bioTomas"></div>
+<!--
         <p>José Tomás Martínez Zárate... 
 
-            Nació en Asunción-Paraguay el 1 de febrero de 1963, casado, con dos hijos, Fátima Gabriela y Miguel José, y dos nietos, Oscar Rafael y Sofía Elena.  
-            
-            Realizó sus estudios secundarios en el Colegio Nacional de la Capital.  
-            
-            Estudió Ciencias Políticas en la Universidad Católica de Asunción, donde obtuvo su licenciatura.  
-            
-            Profesorado en Bellas Artes en la Universidad Nacional de Asunción, y Economía en la Universidad Nacional de Asunción, esta última carrera abandonó por viajar a Londres-Inglaterra a estudiar Inglés por un año y dos años en Estados Unidos de Norteamerica. 
-            
-            Fue becado por el gobierno de Israel para el curso “Management and LeadershipTraining for  Cooperative”. 
-            
-            Cumplió su servicio militar en la Fuerza Aérea paraguaya, siendo Porta estandarte; egresando como sub-teniente de Aviación y paracaidista militar. 
-            
-            Desde muy pequeño sintió pasión por los viajes, y ha tenido la oportunidad de viajar por muchos países de América, Europa, Asia y África.  
-            
-            Otra de sus pasiones fueron las artes marciales, especialmente el Tae Won Do, arte marcial coreano, que le dio la oportunidad de viajar a Malasia, acompañando al equipo mundial paraguayo, como manager del equipo.  
-            
-            Es de familia católica, especialmente su madre era una mujer muy devota a la virgen María. Aunque había  recibido todos los sacramentos en su juventud, tuvo un tiempo de alejamiento de la Iglesia, como el hijo pródigo.  
-            
-            Como todo joven, buscó en las fiestas la alegría de vivir, y eso trajo aparejado unos hábitos pecaminosos que casi le cuesta la separación de su familia.  
-            
-            Cuando su matrimonio iba camino al fracaso, fue invitado por su esposa Marta a pedir ayuda en un grupo de oración de la Renovación Carismática, y fue en ese Movimiento eclesial donde tuvo su encuentro personal con el Señor. Su esposa Marta falleció de cáncer en el año 2013; en el año 2023 contrajo segundas nupcias con Silvia Mariella Vera Díaz. 
-            
-            Fue Coordinador Nacional de la RCC del Paraguay y miembro del Consejo Latinoamericano de la R.C.C,  Coordinador Nacional de Laicos y sirvió como miembro del Consejo en la Pastoral del Exorcismo en la Arquidiócesis de Asunción.  
-            
-            Desde hace 28  años aproximadamente se dedica a la evangelización, a través de retiros, conferencias, medios radiales, debates televisivos y otros medios. 
-            
-            Ha escrito varios libros como: El Poder de Dios sobre Satanás, El Gran Engaño, Ministerio de Liberación, La Masonería, lo que el cristiano debe conocer, El Yoga, ¿Puede un cristiano practicarlo? y  Seminario de Vida en el Espíritu Santo, junto con  otros hermanos de la RCC.  
-            
-            Algunos de sus libros fueron editados en Argentina, Colombia y Ecuador.  
-            
-            Hace 17 años conduce el programa “La Palabra” en Radio María Paraguay.</p>
+          Nació en Asunción-Paraguay el 1 de febrero de 1963, casado, con dos hijos, Fátima Gabriela y Miguel José, y dos nietos, Oscar Rafael y Sofía Elena.  
+          
+          Realizó sus estudios secundarios en el Colegio Nacional de la Capital.  
+          
+          Estudió Ciencias Políticas en la Universidad Católica de Asunción, donde obtuvo su licenciatura.  
+          
+          Profesorado en Bellas Artes en la Universidad Nacional de Asunción, y Economía en la Universidad Nacional de Asunción, esta última carrera abandonó por viajar a Londres-Inglaterra a estudiar Inglés por un año y dos años en Estados Unidos de Norteamerica. 
+          
+          Fue becado por el gobierno de Israel para el curso “Management and LeadershipTraining for  Cooperative”. 
+          
+          Cumplió su servicio militar en la Fuerza Aérea paraguaya, siendo Porta estandarte; egresando como sub-teniente de Aviación y paracaidista militar. 
+          
+          Desde muy pequeño sintió pasión por los viajes, y ha tenido la oportunidad de viajar por muchos países de América, Europa, Asia y África.  
+          
+          Otra de sus pasiones fueron las artes marciales, especialmente el Tae Won Do, arte marcial coreano, que le dio la oportunidad de viajar a Malasia, acompañando al equipo mundial paraguayo, como manager del equipo.  
+          
+          Es de familia católica, especialmente su madre era una mujer muy devota a la virgen María. Aunque había  recibido todos los sacramentos en su juventud, tuvo un tiempo de alejamiento de la Iglesia, como el hijo pródigo.  
+          
+          Como todo joven, buscó en las fiestas la alegría de vivir, y eso trajo aparejado unos hábitos pecaminosos que casi le cuesta la separación de su familia.  
+          
+          Cuando su matrimonio iba camino al fracaso, fue invitado por su esposa Marta a pedir ayuda en un grupo de oración de la Renovación Carismática, y fue en ese Movimiento eclesial donde tuvo su encuentro personal con el Señor. Su esposa Marta falleció de cáncer en el año 2013; en el año 2023 contrajo segundas nupcias con Silvia Mariella Vera Díaz. 
+          
+          Fue Coordinador Nacional de la RCC del Paraguay y miembro del Consejo Latinoamericano de la R.C.C,  Coordinador Nacional de Laicos y sirvió como miembro del Consejo en la Pastoral del Exorcismo en la Arquidiócesis de Asunción.  
+          
+          Desde hace 28  años aproximadamente se dedica a la evangelización, a través de retiros, conferencias, medios radiales, debates televisivos y otros medios. 
+          
+          Ha escrito varios libros como: El Poder de Dios sobre Satanás, El Gran Engaño, Ministerio de Liberación, La Masonería, lo que el cristiano debe conocer, El Yoga, ¿Puede un cristiano practicarlo? y  Seminario de Vida en el Espíritu Santo, junto con  otros hermanos de la RCC.  
+          
+          Algunos de sus libros fueron editados en Argentina, Colombia y Ecuador.  
+          
+          Hace 17 años conduce el programa “La Palabra” en Radio María Paraguay.</p>
         
-        <!--<section class="princ1">
+        <section class="princ1">
           <img src="./assets/tomas1.webp" alt="Imagen de Tomas Predicando" class="tom1 pt-5 mt-4 mx-0">
           <h1 class="tit-prin">Silvia <br> Mariella</h1>
           <img src="./assets/silvia1.webp" alt="Imagen de Silvia Cantando" class="sil1 pt-5 mt-4">          
@@ -125,9 +132,9 @@
         </section>
         <hr class="m-1">
         <section>
-            <p class="text-center">© 2025 Silvia Mariella y José Tomás Martínez Zárate | Paraguay |
-                Todos los derechos reservados. Creado por MafeTech
-            </p>
+          <p class="text-center fs-6 m-0 p-0">© 2025 Silvia Mariella y José Tomás Martínez Zárate | Paraguay |
+            Todos los derechos reservados. Creado por MafeTech
+        </p>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

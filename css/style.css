@@ -1,10 +1,15 @@
 *{
     padding: 0;
-    margin: 0;    
-    font-family: system-ui, Arial, sans-serif;
-    font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", system-ui, sans-serif;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #000;
+    
 }
-
   
 .navbar1{
     background-color: #f8f8f6;
@@ -26,50 +31,11 @@
     justify-content: space-around;
     
 }
-/**
-.principal{   
-    background-image:url(../assets/fondoIndex.webp);
-    width: 110%;
-    height: 110%;    
-}
-.princ1,
-.princ2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.tit-prin{
-    font-family: 'Caveat', cursive;
-    color: black;
-    font-size: 80px;
-    text-align: center;
-}
-.tom1{
-    width: 620px;
-    height: 420px;
-    padding-bottom: 20px;
-}
-.sil1{
-    width: 600x;
-    height: 400px;
-    padding-bottom: 20px;
-}
-.syt1{
-    width: 600px;
-    height: 400px;
-    padding-bottom: 20px;
-}
-.syt2{
-    width: 600px;
-    height: 400px;
-}
-**/
+
 .video-contenedor{
     position: relative;
   width: 100%;
-  height: 100vh; /* el video ocupa el alto de la pantalla */
+  height: 100vh; 
   overflow: hidden;
 }
 
@@ -83,10 +49,8 @@
     z-index: 0
 }
 /*** Contacto ***/
-.principal-contact{
-    background-image: url(../assets/fondo.webp);
-    width: 100%;
-    height: 100vh;
+.mail{
+    text-decoration: none;
 }
 /*** Nuestra Historia ***/
 .principal-nos{
@@ -96,6 +60,7 @@
 }
 footer{
     background-color: #F9F9F6;
+    margin: 0;
 }
 
 .carousel-caption {
@@ -104,18 +69,20 @@ footer{
 
 
 /*** Silvia Mariella ****/
-.sil::before {
+.sil::before,
+.contact::before,
+.tomas::before {
     content: "";
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url('../assets/fondo.webp'); /* Reemplazá esto por tu imagen */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5; /*Esto aclara la imagen: cuanto más bajo, más clara */
+    opacity: 0.2; /*Esto aclara la imagen: cuanto más bajo, más clara */
     z-index: -1; /* Para que quede detrás del contenido */
   }
 
@@ -126,10 +93,14 @@ footer{
     color: #000;
   }
 
-  .bandera{
-    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", "Twemoji Mozilla", system-ui, sans-serif;
-  }
   .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: brightness(0.3); /* oscurece a 30% */
+  .carousel-control-next-icon {
+  filter: brightness(0.3);
+}
+
+
+.sangria{
+    text-indent: 7em;
+    text-align: justify;
+    padding: 15px;
 }
