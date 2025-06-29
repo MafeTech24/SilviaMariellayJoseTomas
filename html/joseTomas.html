@@ -21,6 +21,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!-- JS -->
      <script defer src="../js/bioTomas.js"></script>
+     <script defer src="../js/libros.js"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -61,55 +62,42 @@
       <!-- Contenedor principal -->
       <div class="container-fluid mb-0 pb-0 principal tomas">
         <h1 class="text-center fw-bold fst-italic pt-4 pb-4">José Tomás Martínez Zárate</h1>
-
-        <div id="bioTomas"></div>
-<!--
-        <p>José Tomás Martínez Zárate... 
-
-          Nació en Asunción-Paraguay el 1 de febrero de 1963, casado, con dos hijos, Fátima Gabriela y Miguel José, y dos nietos, Oscar Rafael y Sofía Elena.  
-          
-          Realizó sus estudios secundarios en el Colegio Nacional de la Capital.  
-          
-          Estudió Ciencias Políticas en la Universidad Católica de Asunción, donde obtuvo su licenciatura.  
-          
-          Profesorado en Bellas Artes en la Universidad Nacional de Asunción, y Economía en la Universidad Nacional de Asunción, esta última carrera abandonó por viajar a Londres-Inglaterra a estudiar Inglés por un año y dos años en Estados Unidos de Norteamerica. 
-          
-          Fue becado por el gobierno de Israel para el curso “Management and LeadershipTraining for  Cooperative”. 
-          
-          Cumplió su servicio militar en la Fuerza Aérea paraguaya, siendo Porta estandarte; egresando como sub-teniente de Aviación y paracaidista militar. 
-          
-          Desde muy pequeño sintió pasión por los viajes, y ha tenido la oportunidad de viajar por muchos países de América, Europa, Asia y África.  
-          
-          Otra de sus pasiones fueron las artes marciales, especialmente el Tae Won Do, arte marcial coreano, que le dio la oportunidad de viajar a Malasia, acompañando al equipo mundial paraguayo, como manager del equipo.  
-          
-          Es de familia católica, especialmente su madre era una mujer muy devota a la virgen María. Aunque había  recibido todos los sacramentos en su juventud, tuvo un tiempo de alejamiento de la Iglesia, como el hijo pródigo.  
-          
-          Como todo joven, buscó en las fiestas la alegría de vivir, y eso trajo aparejado unos hábitos pecaminosos que casi le cuesta la separación de su familia.  
-          
-          Cuando su matrimonio iba camino al fracaso, fue invitado por su esposa Marta a pedir ayuda en un grupo de oración de la Renovación Carismática, y fue en ese Movimiento eclesial donde tuvo su encuentro personal con el Señor. Su esposa Marta falleció de cáncer en el año 2013; en el año 2023 contrajo segundas nupcias con Silvia Mariella Vera Díaz. 
-          
-          Fue Coordinador Nacional de la RCC del Paraguay y miembro del Consejo Latinoamericano de la R.C.C,  Coordinador Nacional de Laicos y sirvió como miembro del Consejo en la Pastoral del Exorcismo en la Arquidiócesis de Asunción.  
-          
-          Desde hace 28  años aproximadamente se dedica a la evangelización, a través de retiros, conferencias, medios radiales, debates televisivos y otros medios. 
-          
-          Ha escrito varios libros como: El Poder de Dios sobre Satanás, El Gran Engaño, Ministerio de Liberación, La Masonería, lo que el cristiano debe conocer, El Yoga, ¿Puede un cristiano practicarlo? y  Seminario de Vida en el Espíritu Santo, junto con  otros hermanos de la RCC.  
-          
-          Algunos de sus libros fueron editados en Argentina, Colombia y Ecuador.  
-          
-          Hace 17 años conduce el programa “La Palabra” en Radio María Paraguay.</p>
-        
-        <section class="princ1">
-          <img src="./assets/tomas1.webp" alt="Imagen de Tomas Predicando" class="tom1 pt-5 mt-4 mx-0">
-          <h1 class="tit-prin">Silvia <br> Mariella</h1>
-          <img src="./assets/silvia1.webp" alt="Imagen de Silvia Cantando" class="sil1 pt-5 mt-4">          
+        <section class="d-flex justify-content-evenly pt-4 pb-5">
+          <img src="../assets/josePortada4.webp" alt="Foto de Jose Predicando">
+          <img src="../assets/josePortada2.webp" alt="Foto de Jose en Europa">
+          <img src="../assets/josePortada3.webp" alt="Foto de Jose Predicando">
         </section>
-        <section class="princ2">
-          <img src="./assets/syt1.webp" alt="Imagen de Silvia y Tomas cuando en la Ceremonia de Casamiento" class="syt1 pt-3 pb-0 mt-5 mb-0">
-          <h2 class="tit-prin">José Tomás <br> Martínez Zárate</h2>
-          <img src="./assets/syt2.webp" alt="Imagen de Sivia y Tomas" class="syt2 mt-5 pt-5">
-        </section> 
+        <div id="bioTomas"></div>
+        <section>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wFPSNs9hH8E?si=CWsUAMc8nSrWRVtt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wkxhjt8f7zY?si=gp-5u1v-Jb5Z_QDh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bv_WcWh9BKY?si=AHihzsGMaNz_CNpf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </section>
+        <section>
+          <h2 class="text-center fw-bold fst-italic pt-4 pb-4 titulo-galeria">Portadas de libros publicados</h2>
+          <div id="galeria" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Tarjetas renderizadas con JS -->
+          </div>        
+          <!-- Modal Bootstrap -->
+          <div class="modal fade" id="modalLibro" tabindex="-1" aria-labelledby="modalLibroLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-center w-100" id="modalLibroLabel">Título del libro</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img id="modalImagen" class="modal-img" src="" alt="">
+                  <p id="modalDescripcion" class="mt-3"></p>
+                </div>
+              </div>
+            </div>
+          </div>>        
+        </section>
       </div>
-    </main> -->
+    </main>    
     <!-- Pie de Página -->
     <footer class="mt-0 pt-0 pie">
         <!-- Enlace a Redes en Pie de Página -->

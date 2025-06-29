@@ -1,0 +1,32 @@
+[
+    {
+      "titulo": "El Gran Engaño",
+      "imagen": "../assets/libro1.webp",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
+    },
+    {
+      "titulo": "Yoga ¿Puede un Cristiano Practicarlo?",
+      "imagen": "../assets/libro2.webp",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
+    },
+    {
+      "titulo": "La Masoneria, Lo que el Cristiano debe conocer ",
+      "imagen": "../assets/libro3.webp",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
+    },
+    {
+        "titulo": "El Poder de Dios sobre Satanás",
+        "imagen": "../assets/libro4.webp",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
+      },
+      {
+        "titulo": "Ministerio de Liberación",
+        "imagen": "../assets/libro5.webp",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
+      },
+      {
+        "titulo": "Renovación Carismática, Seminario de Vida en el Espíritu Santo",
+        "imagen": "../assets/libro6.webp",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
+      }
+  ]

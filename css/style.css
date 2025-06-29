@@ -104,3 +104,53 @@ footer{
     text-align: justify;
     padding: 15px;
 }
+/*** José Tomás *****/
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 320px;
+  height: 180px;
+  border: none;
+}
+.titulo-galeria {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/****** RESPONSIVE *********/
+@media (min-width: 768px) {
+  .video-container iframe {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .video-container iframe {
+    max-width: 560px;
+    height: 300px;
+  }
+}
