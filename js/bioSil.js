@@ -24,3 +24,4 @@ Es sobreviviente de cáncer de mama y ha viajado difundiendo el Mensaje de Dios 
 en el año 2000 ha tenido la Gracia de cantarle al Señor en Tierra Santa durante el Congreso Católico organizado por Martha Reyes, Hosanna 2000.
 En el año 2007, Silvia Mariella ha sido reconocida y premiada por la labor que realiza por el INSTITUTO TOMÁS MORO de la Universidad Católica de Asunción -Paraguay-.
 Cuenta con 16 producciones en CD, varios sencillos y espera tus oraciones para seguir Produciendo <em><strong>PARA EL ÚNICO DIGNO DE TODA ALABANZA, NUESTRO SEÑOR JESUCRISTO.</strong></em></p>`
+

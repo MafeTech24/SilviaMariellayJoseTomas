@@ -21,6 +21,7 @@
      <!-- JS -->     
      <script defer src="../js/main.js"></script>
      <script defer src="../js/bioSil.js"></script>
+     <script defer src="../js/albums.js"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -58,32 +59,48 @@
       </nav>
     </header>
     <main>
-      <!-- Contenedor principal -->
+      <!-- Contenedor principal -->    
       <div class="container-fluid mb-0 pb-0 principal sil">
         <div class="contenido">
           <h1 class="text-center fw-bold fst-italic pt-4 pb-4">"¿Como pagaré al Señor todo el bien que me ha hecho?" (Sal 116,12)</h1>
-        <section class="d-flex justify-content-evenly pt-4 pb-5">
-            <img src="../assets/portada1.webp" alt="Foto de Silvia Adolescente">
-            <img src="../assets/portada2.webp" alt="Foto de Silvia Extendiendo los brazos">
-            <img src="../assets/portada4.webp" alt="Foto de Silvia Predicando">
-        </section>
+        <section class="row justify-content-evenly pt-4 pb-5 text-center">
+          <div class="col-12 col-md-4 mb-3">
+            <img src="../assets/portada1.webp" class="img-fluid" alt="Foto de Silvia Adolescente">
+          </div>
+            <div class="col-12 col-md-4 mb-3">
+              <img src="../assets/portada2.webp" class="img-fluid" alt="Foto de Silvia Extendiendo los brazos">
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+              <img src="../assets/portada4.webp" class="img-fluid" alt="Foto de Silvia Predicando">
+            </div>
+</section>
         <div id="bioSil"></div>
       
-<h2 class="text-center fw-bold fst-italic"> "... recibirán la fuerza del Espíritu Santo que descenderá sobre ustedes, y serán mis testigos en Jerusalén, en toda Judea y Samaría, y hasta los confines de la tierra ..." (Hch1,8)</h2>
-<div id="carouselPaises" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="carousel-content">
-          <!-- Los slides se insertan aquí -->
-        </div>
+<div class="versiculo-hover position-relative d-inline-block text-center">
+  <h2 id="versiculoTrigger" class="fw-bold fst-italic versiculo-texto" style="cursor: pointer;">
+    "... recibirán la fuerza del Espíritu Santo que descenderá sobre ustedes, y serán mis testigos en Jerusalén, en toda Judea y Samaría, y hasta los confines de la tierra ..." (Hch1,8)
+  </h2>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPaises" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselPaises" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
-        </div>
-      </div>
+  <div id="carouselPopup" class="carousel slide carousel-popup" data-bs-ride="carousel">
+  <button type="button" class="btn-close close" aria-label="Close"></button> <!-- botón cerrar -->
+  <div class="carousel-inner" id="carousel-inner">
+    <!-- Slides se insertan dinámicamente -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPopup" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselPopup" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+</div>
+
+<div id="discografia" class="container my-5">
+  <h2 class="text-center mb-4">Discografía</h2>
+  <div class="row" id="album-list"></div>
+</div>
+
 <!-- Pie de Página -->
 <footer class="mt-0 pt-0 pie">
         <!-- Enlace a Redes en Pie de Página -->

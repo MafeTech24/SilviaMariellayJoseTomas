@@ -40,14 +40,7 @@
   color: #febb6e; /* color al pasar el mouse */ 
   color: #8B0000; /* cambia este color según tu diseño */
 }
-/*
-.navbar-nav .nav-link:hover {
-  color: #fff;
-  background-color: #febb6e; 
-  border-radius: 5px;
-  padding: 5px 10px;
-} 
-  */
+
 .navbar-collapse {
   background-color: #f8f8f6;
 }
@@ -74,6 +67,7 @@
 .pie {
   background-color: #f8f8f6;
   margin: 0;
+  padding: 0;
   
 }
 .text-pie{
@@ -147,6 +141,115 @@ form .btn-primary:hover {
   text-align: justify;
   padding: 15px;
 }
+.versiculo-texto {
+  transition: color 0.3s ease;
+  color: #000; /* color por defecto */
+}
+.carousel-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 700px;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 1050;
+  border: 2px solid #ccc;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-popup img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ajustes del contenido */
+.carousel-item > div {
+  width: 100%;
+}
+
+/* Caption legible */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Botón cerrar */
+.carousel-popup .btn-close.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1100;
+}
+
+#discografia {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.album-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.album-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.album-cover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.album-year {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.tracklist {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+.album-title a,
+.tracklist a {
+  text-decoration: none;      /* Quita el subrayado */
+  color: #0956fc;                /* Color base del enlace */
+  transition: color 0.3s ease; /* Suave transición de color */
+  font-weight: bold;          /* Negrita para destacar */
+}
+
+.album-title a:hover,
+.tracklist a:hover {
+  color:#8B0000;            /* Color al pasar el cursor (verde Spotify, por ejemplo) */
+}
+
+.album-title a:active,
+.tracklist a:active {
+  color: #14833b;             /* Color al hacer click */
+}
+
 
 /* Videos (José Tomás) */
 .video-container {
@@ -187,6 +290,35 @@ form .btn-primary:hover {
 
 /* Responsive */
 /* Teléfonos */
+@media (hover: hover) {
+  .versiculo-hover:hover .carousel-popup {
+    display: block !important;
+  }
+   .versiculo-hover:hover .versiculo-texto {
+    color: #007bff; /* o cualquier color que prefieras */
+  }
+  .versiculo-texto:hover {
+    color: #007bff; /* color al pasar el mouse */
+  }
+  .versiculo-hover:hover .versiculo-texto {
+    color: #007bff; /* o cualquier color que prefieras */
+  }
+}
+
+/* Al hacer clic en móvil */
+.versiculo-texto.active {
+  color: #007bff; /* color para cuando está activo en móvil */
+}
+.carousel-popup.active {
+  display: block !important;
+}
+
+@media (max-width: 576px) {
+  .carousel-popup {
+    width: 90vw;
+  }
+}
+
 @media (max-width: 768px) {
   * {
     font-size: 16px;

@@ -1,0 +1,60 @@
+[
+  {
+    "titulo": "Corazón de Novia",
+    "anio": 2018,
+    "portada": "../assets/corazonDeNovia.webp",
+    "url": "https://open.spotify.com/intl-es/album/0lQ1RHuwucpNhaLCThCJko?si=fEV5ZwynT9Ksq61K7sja_A",
+    "canciones": [
+      { "nombre": "En Tí soy más que Vencedor", "url": "https://open.spotify.com/intl-es/track/5LFWXraDsUhD0zpupb0UO7?si=ea16ea0ea3014a36" },
+      { "nombre": "Tu Palabra", "url": "https://open.spotify.com/intl-es/track/3vemAFqseLqsf13gbJpz6L?si=3c0b9028020e4686" },
+      { "nombre": "Llegué junto a Él", "url": "https://open.spotify.com/intl-es/track/6BE2icd3z28iy5lCQTl90w?si=f57ab74fd2524e6d" },
+      { "nombre": "Aprende a vivir", "url": "https://open.spotify.com/intl-es/track/3UuPTomW72NvaZxlLqLBe1?si=21292b6359714a1f" },
+      { "nombre": "Corazón de Novia", "url": "https://open.spotify.com/intl-es/track/5h8ZbjQLa0pXDlYwDIoI9H?si=c998ddbda5994b47" },
+      { "nombre": "Te Amo hoy más que ayer", "url": "https://open.spotify.com/intl-es/track/04ioxBBt7GsvJzEX8epbnl?si=174f4c834d7a45df" },
+      { "nombre": "Ponte de pie", "url": "https://open.spotify.com/intl-es/track/2psFlD4NpzUtsnliHk9wxC?si=80a2c56685814ef0c" },
+      { "nombre": "Alégrate María", "url": "https://open.spotify.com/intl-es/track/1AndBoX7yxVg3w6LfcpmBC?si=2dfa64fc74b3487d" },
+      { "nombre": "En tu Gloria", "url": "https://open.spotify.com/intl-es/track/7MNJmeWOG3uSurv3XGS1lk?si=5d5a8685d3844a3d" },
+      { "nombre": "Regalo de Dios", "url": "https://open.spotify.com/intl-es/track/3k1oMawSjda6mfQhaP4UFj?si=c05d87b132a14d46" },
+      { "nombre": "Canta Hermano", "url": "https://open.spotify.com/intl-es/track/2bN4nRgXX2rOD6kT37xHJq?si=fdd3a6de0e52455b" },
+      { "nombre": "Dios es Grande", "url": "https://open.spotify.com/intl-es/track/6Lqu2J2xEYYijyVvYwqCKm?si=366dca25c1114410" }
+    ]
+  },
+  {
+    "titulo": "Hasta el cielo ¡No Paramos!",
+    "anio": 2022,
+    "portada": "../assets/hastaElCielo.webp",
+    "url": "https://open.spotify.com/intl-es/album/0TMH45FG9i6zekfCT1c3e8?si=uqkYEXOZSkiYmXL9h8kMHQ",
+    "canciones": [
+      { "nombre": "Hasta el cielo ¡No Paramos!", "url": "https://open.spotify.com/intl-es/track/3gWTRZYfZUFINeSBMQ4R0r?si=3c0bffc83d304bfc" },
+      { "nombre": "Debemos volver al Espíritu Santo", "url": "https://open.spotify.com/intl-es/track/3KVqx4ptIaidQ8T7VZi5Ny?si=6a46f061c41d437b" },
+      { "nombre": "Se que estás Ahí", "url": "https://open.spotify.com/intl-es/track/5QficqSd04ehhFTIs50gCu?si=7ec988e2a4294be3" },
+      { "nombre": "Ahora Mismo/Se mueve la Mano de Dios", "url": "https://open.spotify.com/intl-es/track/238hkXmqystluvUDfiLMa5?si=9ada2401f1e74568" },
+      { "nombre": "Él me sanó", "url": "https://open.spotify.com/intl-es/track/1ci4qMxthB6DniVc8JMn55?si=244eadc4d0754996" },
+      { "nombre": "Su Manto", "url": "https://open.spotify.com/intl-es/track/4e3kRegfYAy5d6EpM1zucH?si=60f17edac6ff4c94" },
+      { "nombre": "Hosanna", "url": "https://open.spotify.com/intl-es/track/5jzaWKST3owC62xamDgkss?si=0c6689ec3d69427f" },
+      { "nombre": "Toma mi corazón", "url": "https://open.spotify.com/intl-es/track/2psktGlok8rPDlIr7NBAwB?si=b8de8f8b50c64be4" },
+      { "nombre": "Mi música", "url": "https://open.spotify.com/intl-es/track/1ygB3FgEM65gQxWWnZ3Kpu?si=f583a4fb15504dfc" },
+      { "nombre": "Nuestro Amor", "url": "https://open.spotify.com/intl-es/track/5fIQUnnBTxrBuNNBGbQrfY?si=f994b884b3614a7e" },
+      { "nombre": "María Es", "url": "https://open.spotify.com/intl-es/track/5XWdNYmid3sazdfj2E3ehp?si=54919600a49d4bfc" }, 
+      { "nombre": "Equipo de Jesús", "url": "https://open.spotify.com/intl-es/track/5SaSFjNKtBDfzOSa7hgPkm?si=04d34f573bd94b6c" }
+    ]
+  },
+  {
+    "titulo": "Sencillos y EP",
+    "anio": "2021-2025",
+    "portada": "../assets/cantando.webp",
+    "url": "https://open.spotify.com/intl-es/album/0TMH45FG9i6zekfCT1c3e8?si=uqkYEXOZSkiYmXL9h8kMHQ",
+    "canciones": [
+      { "nombre": "Mi Esperanza (2025)", "url": "https://open.spotify.com/intl-es/album/6cRqLxSmikhfzPN0sp2C4O?si=02I2TNrDQRyCFU7g5ILjlw" },
+      { "nombre": "Salmo 91 (2024)", "url": "https://open.spotify.com/intl-es/album/2gyu3mtOeaRnxNGDYO7hYn?si=w03cesvFSfCyPYGGwyjBXA" },
+      { "nombre": "Te Amo (2024)", "url": "https://open.spotify.com/intl-es/album/0BCLuXtgxANcZu1Z4aeFbM?si=znkGNoOlQiyRxQWf8nPQUw" },
+      { "nombre": "A Papá (2023)", "url": "https://open.spotify.com/album/6ZktKiwlQMCE4kHyF7Qyvh?si=2yLG4TQtTN6qhdG8mUUFcQ" },
+      { "nombre": "Todo es para Tí (2023)", "url": "https://open.spotify.com/album/3VstSIoaDhDvvCNO9iy18A?si=IP-wM6whSP60bwqeuzx3bg" },
+      { "nombre": "Levántate (2023)", "url": "https://open.spotify.com/album/40Pe8n54qgJbF7zyA5S0uH?si=00-JnuVcTwWOlQthz8JlRA" },
+      { "nombre": "Su Mayor Amor (2022)", "url": "https://open.spotify.com/album/1fOPe2XGmNsVHajSxV1LBn?si=9cEUw1SyQaicgES_xhJzXQ" },
+      { "nombre": "Nada nos detendrá (2022)", "url": "https://open.spotify.com/album/2e5F8dP9TFlS8rHwyAcAWj?si=R2RNZFzEQEGfERnjYWRguw" },
+      { "nombre": "Quiero sentir tu Presencia (2022)", "url": "https://open.spotify.com/album/2xRuNnkPocAC1HexrmOdJD?si=RNUc7dtYQo6ePfjZaeeP7g" },
+      { "nombre": "Reconozcan el Poder del Señor (2021)", "url": "https://open.spotify.com/album/2x7FjcbAg8uqLQsGLq6flB?si=ILRu1eNpQuqSQ7QYD1hmSw" }
+    ]
+  }
+]
