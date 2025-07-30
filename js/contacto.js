@@ -24,12 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alerta.className = "alert alert-danger mt-3";
         alerta.textContent = "Por favor completá todos los campos.";
         alerta.classList.remove("d-none");
-      } else {
-        // Simula redirección después del envío exitoso (solo en local)
-        setTimeout(() => {
-          window.location.href = "gracias.html";
-        }, 2000);
-      }
+      } 
     });
   }
 });
