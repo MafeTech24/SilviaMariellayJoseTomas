@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 
-  // Si solo querés validar, sin impedir el envío real:
   const form = document.getElementById("formContacto");
   const alerta = document.getElementById("alerta");
 
@@ -21,10 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
       const mensaje = form.mensaje.value.trim();
 
       if (!nombre || !email || !mensaje) {
-        e.preventDefault(); // solo si está incompleto
+        e.preventDefault(); // Evita el envío si hay campos vacíos
         alerta.className = "alert alert-danger mt-3";
         alerta.textContent = "Por favor completá todos los campos.";
         alerta.classList.remove("d-none");
+      } else {
+        // Simula redirección después del envío exitoso (solo en local)
+        setTimeout(() => {
+          window.location.href = "gracias.html";
+        }, 2000);
       }
     });
   }
