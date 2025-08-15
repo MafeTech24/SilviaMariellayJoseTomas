@@ -1,0 +1,176 @@
+/* *******************
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #000;
+    
+}
+  
+.navbar1{
+    background-color: #f8f8f6;
+    font-weight: 30px;
+    font-weight: 500;
+}
+.logo{  
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar-collapse {
+  background-color: #f8f8f6; 
+}
+.video-contenedor{
+    position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+.video-container iframe {
+  width: 100%;
+  max-width: 320px;
+  height: 180px;
+  border: none;
+}
+.video-port{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0
+}
+.pie{
+    background-color: #f8f8f6;
+    margin: 0;
+}
+/*** Contacto 
+.mail{
+    text-decoration: none;
+}
+/*** Nuestra Historia 
+.principal-nos{
+    background-image: url(../assets/fondo3.webp);
+    width: 100%;
+    height: 100vh;
+}
+.carousel-caption {
+  bottom: 20px;
+}
+
+
+/*** Silvia Mariella 
+.sil::before,
+.contact::before,
+.tomas::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/fondo.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2; 
+    z-index: -1; 
+  }
+
+  .contenido {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    color: #000;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+  filter: brightness(0.3);
+}
+
+
+.sangria{
+    text-indent: 7em;
+    text-align: justify;
+    padding: 15px;
+}
+/*** José Tomás 
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 320px;
+  height: 180px;
+  border: none;
+}
+.titulo-galeria {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/****** RESPONSIVE 
+@media (max-width: 768px) {
+  * {
+  font-size: 16px;
+}
+  .video-contenedor {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 768px) {
+   * {
+    font-size: 20px;
+  }
+  .video-container iframe {
+    max-width: 480px;
+    height: 270px;
+  }
+}
+@media (min-width: 992px) {
+   * {
+    font-size: 25px;
+  }
+  .video-container iframe {
+    max-width: 640px;
+    height: 360px;
+  }
+}
+*/

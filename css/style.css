@@ -9,6 +9,11 @@
   line-height: 1.5;
   color: #000;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 
 /* Navbar */
 .navbar1 {
@@ -44,42 +49,91 @@
 .navbar-collapse {
   background-color: #f8f8f6;
 }
-
-/* Video de portada */
-.video-contenedor {
-  position: relative;
+.principal-index{
+  background-image: url(../assets/fondo.webp);
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-}
-
-.video-port {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-
-/* Footer */
-.pie {
-  background-color: #f8f8f6;
-  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0;
+}
+/* === VIDEO DE PORTADA FULLSCREEN === */
+.video-contenedor {
+  width: 100%;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */  
+}
+
+.video-port {  
+  width: 100%;
+  height: 100vh;
   
 }
-.text-pie{
-  font-weight: bold; 
-}
-footer a img {
-  transition: transform 0.3s ease;
+/* Footer */
+footer {
+  background-color: #f8f8f6; /* o el color que uses */
+  color: white;
+  padding-top: 1rem;
 }
 
-footer a img:hover {
-  transform: scale(1.2);
+/* Íconos de redes sociales */
+footer .pie-redes img {
+  max-width: 50px;
+  height: auto;
+  transition: transform 0.2s ease;
 }
+
+footer .pie-redes img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Silvia Mariella */
+.portada-img,
+.portada-img2 {
+  border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  object-fit: cover;
+  max-height: 350px;
+}
+.portada-img:hover,
+.portada-img2:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Discografía */
+.album-card {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.album-cover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.album-year {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.tracklist {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.tracklist a {
+  text-decoration: none;
+}
+
 /* Contacto */
 .mail {
   text-decoration: none;
@@ -95,21 +149,13 @@ form .btn-primary:hover {
   background-color: #A52A2A;
 }
 
-/* Nuestra Historia */
-.principal-nos {
-  background-image: url(../assets/fondo3.webp);
-  width: 100%;
-  height: 100vh;
-}
-
-.carousel-caption {
-  bottom: 20px;
-}
 
 /* Biografías */
 .sil::before,
 .contact::before,
-.tomas::before {
+.tomas::before,
+.index::before,
+.nosotros::before {
   content: "";
   position: fixed;
   top: 0;
@@ -128,6 +174,7 @@ form .btn-primary:hover {
   position: relative;
   z-index: 1;
   padding: 40px;
+  padding-bottom: 0;
   color: #000;
 }
 
@@ -145,31 +192,42 @@ form .btn-primary:hover {
   transition: color 0.3s ease;
   color: #000; /* color por defecto */
 }
+/* ===== Carrusel popup ===== */
 .carousel-popup {
   display: none;
   position: fixed;
-  top: 50%;
+  top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90vw;
-  max-width: 700px;
+  transform: translateX(-50%);
+  z-index: 1050;
+  width: 80%;
+  max-width: 900px;
   max-height: 90vh;
   overflow-y: auto;
-  z-index: 1050;
   border: 2px solid #ccc;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   padding: 1rem;
   border-radius: 10px;
 }
-
-/* Estilo para las imágenes del carrusel */
-.carousel-popup img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.carousel-popup.active {
+  display: block !important;
 }
+.versiculo-texto.activo {
+  color: #0956fc; /* El mismo color que el hover */
+}
+/* ===== Imágenes de portada con hover elegante ===== */
+.portada-img {
+  border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  object-fit: cover;
+  max-height: 350px;
+}
+.portada-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Ajustes del contenido */
 .carousel-item > div {
@@ -291,9 +349,7 @@ form .btn-primary:hover {
 /* Responsive */
 /* Teléfonos */
 @media (hover: hover) {
-  .versiculo-hover:hover .carousel-popup {
-    display: block !important;
-  }
+  
    .versiculo-hover:hover .versiculo-texto {
     color: #007bff; /* o cualquier color que prefieras */
   }
@@ -304,6 +360,14 @@ form .btn-primary:hover {
     color: #007bff; /* o cualquier color que prefieras */
   }
 }
+/* Botón cerrar (asegura posicionamiento) */
+.carousel-popup .btn-close,
+.carousel-popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1100;
+}
 
 /* Al hacer clic en móvil */
 .versiculo-texto.active {
@@ -311,6 +375,11 @@ form .btn-primary:hover {
 }
 .carousel-popup.active {
   display: block !important;
+}
+@media (max-width: 480px) {
+  footer .pie-redes img {
+    max-width: 28px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -325,10 +394,32 @@ form .btn-primary:hover {
   }
 
   .video-contenedor {
-    height: 60vh;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../assets/fondo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .video-port {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    background-image: url('../assets/fondo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+ footer .pie-redes img {
+    max-width: 35px;
   }
 }
-
 /* Tablets */
 @media (min-width: 768px) {
   * {
@@ -355,179 +446,4 @@ form .btn-primary:hover {
 
 
 
-/* *******************
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Cormorant Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: italic;
-    font-size: 25px;
-    line-height: 1.5;
-    color: #000;
-    
-}
-  
-.navbar1{
-    background-color: #f8f8f6;
-    font-weight: 30px;
-    font-weight: 500;
-}
-.logo{  
-    padding: 0;
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-.navbar-nav{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.navbar-collapse {
-  background-color: #f8f8f6; 
-}
-.video-contenedor{
-    position: relative;
-  width: 100%;
-  height: 100vh; 
-  overflow: hidden;
-}
-.video-container iframe {
-  width: 100%;
-  max-width: 320px;
-  height: 180px;
-  border: none;
-}
-.video-port{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0
-}
-.pie{
-    background-color: #f8f8f6;
-    margin: 0;
-}
-/*** Contacto 
-.mail{
-    text-decoration: none;
-}
-/*** Nuestra Historia 
-.principal-nos{
-    background-image: url(../assets/fondo3.webp);
-    width: 100%;
-    height: 100vh;
-}
-.carousel-caption {
-  bottom: 20px;
-}
 
-
-/*** Silvia Mariella 
-.sil::before,
-.contact::before,
-.tomas::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../assets/fondo.webp'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.2; 
-    z-index: -1; 
-  }
-
-  .contenido {
-    position: relative;
-    z-index: 1;
-    padding: 40px;
-    color: #000;
-  }
-
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-  filter: brightness(0.3);
-}
-
-
-.sangria{
-    text-indent: 7em;
-    text-align: justify;
-    padding: 15px;
-}
-/*** José Tomás 
-.video-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-}
-
-.video-container iframe {
-  width: 100%;
-  max-width: 320px;
-  height: 180px;
-  border: none;
-}
-.titulo-galeria {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-weight: bold;
-}
-
-.card {
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.modal-img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-/****** RESPONSIVE 
-@media (max-width: 768px) {
-  * {
-  font-size: 16px;
-}
-  .video-contenedor {
-    height: 60vh;
-  }
-}
-
-@media (min-width: 768px) {
-   * {
-    font-size: 20px;
-  }
-  .video-container iframe {
-    max-width: 480px;
-    height: 270px;
-  }
-}
-@media (min-width: 992px) {
-   * {
-    font-size: 25px;
-  }
-  .video-container iframe {
-    max-width: 640px;
-    height: 360px;
-  }
-}
-*/
