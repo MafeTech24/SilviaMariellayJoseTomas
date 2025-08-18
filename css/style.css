@@ -17,7 +17,7 @@ html, body {
 
 /* Navbar */
 .navbar1 {
-  background-color: #f8f8f6;
+  background-color: #f2f6fa;
   font-weight: 500;;
   }
 
@@ -29,6 +29,9 @@ html, body {
   font-weight: 500;
   font-style: normal;
 }
+.logo:hover{
+  transform: scale(1.1);
+}
 .navbar-nav {
   display: flex;
   justify-content: space-around;
@@ -36,18 +39,23 @@ html, body {
 .navbar-nav,
 .navbar-nav .nav-link,
 .dropdown-item{
+  background-color: #f2f6fa;
   font-weight: bold;
-  color: #000; /* color base */
+  color: #000;
   transition: color 0.3s ease;
+}
+ul .dropdown-menu.show {
+  background-color: #f2f6fa;
 }
 .navbar-nav .nav-link:hover,
 .dropdown-item:hover {
-  color: #febb6e; /* color al pasar el mouse */ 
+  background-color: #faf2f3; /* color al pasar el mouse */ 
   color: #8B0000; /* cambia este color según tu diseño */
+  transform: scale(1.05);
 }
 
 .navbar-collapse {
-  background-color: #f8f8f6;
+  background-color: #f2f6fa;
 }
 .principal-index{
   background-image: url(../assets/fondo.webp);
@@ -71,9 +79,10 @@ html, body {
 }
 /* Footer */
 footer {
-  background-color: #f8f8f6; /* o el color que uses */
+  background-color: #f2f6fa; 
   color: white;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Íconos de redes sociales */
@@ -102,39 +111,10 @@ footer .pie-redes img:hover {
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Discografía */
-.album-card {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.album-cover {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.album-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 0.5rem;
-}
-
-.album-year {
-  font-size: 0.9rem;
-  color: gray;
-}
-
-.tracklist {
-  list-style: none;
-  padding: 0;
-  font-size: 0.9rem;
-}
-.tracklist a {
-  text-decoration: none;
-}
-
 /* Contacto */
+.inputForm{
+  background-color: #ffffff;
+}
 .mail {
   text-decoration: none;
 }
@@ -173,8 +153,6 @@ form .btn-primary:hover {
 .contenido {
   position: relative;
   z-index: 1;
-  padding: 40px;
-  padding-bottom: 0;
   color: #000;
 }
 
@@ -190,7 +168,7 @@ form .btn-primary:hover {
 }
 .versiculo-texto {
   transition: color 0.3s ease;
-  color: #000; /* color por defecto */
+  color: #0956FC; /* color por defecto */
 }
 /* ===== Carrusel popup ===== */
 .carousel-popup {
@@ -250,14 +228,9 @@ form .btn-primary:hover {
   z-index: 1100;
 }
 
-#discografia {
-  background-color: #f9f9f9;
-  padding: 2rem;
-  border-radius: 10px;
-}
-
+/* Discografía */
 .album-card {
-  background: white;
+  background: #faf9f2;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 1rem;
@@ -307,7 +280,12 @@ form .btn-primary:hover {
 .tracklist a:active {
   color: #14833b;             /* Color al hacer click */
 }
-
+#discografia {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
 /* Videos (José Tomás) */
 .video-container {
@@ -352,7 +330,7 @@ form .btn-primary:hover {
   
    .versiculo-hover:hover .versiculo-texto {
     color: #007bff; /* o cualquier color que prefieras */
-  }
+    }
   .versiculo-texto:hover {
     color: #007bff; /* color al pasar el mouse */
   }
@@ -379,6 +357,7 @@ form .btn-primary:hover {
 @media (max-width: 480px) {
   footer .pie-redes img {
     max-width: 28px;
+    padding-top: 10px;
   }
 }
 
@@ -397,7 +376,7 @@ form .btn-primary:hover {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    background-image: url('../assets/fondo.webp');
+    background-image: url('../assets/fondoR.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -411,7 +390,7 @@ form .btn-primary:hover {
     height: 100%;
     transform: translate(-50%, -50%);
     object-fit: contain;
-    background-image: url('../assets/fondo.webp');
+    background-image: url('../assets/fondoR.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -419,7 +398,16 @@ form .btn-primary:hover {
  footer .pie-redes img {
     max-width: 35px;
   }
+
+  .sangria{
+    text-indent: 3em;
+    padding: 5px;
+  }
+  #discografia {
+    padding: 5px;
+  }
 }
+
 /* Tablets */
 @media (min-width: 768px) {
   * {
