@@ -1,33 +1,39 @@
 [
-    {
-      "titulo": "El Gran Engaño",
-      "imagen": "../assets/libro1.webp",
-      "descripcion": "El autor explica la manera sutil en que la Nueva Era se introduce en nuestra sociedad y en algunos casos, incluso en la propia Iglesia. Los fenómenos de la Nueva Era se exponen y comparan con la doctrina católica para discernir las profundas diferencias que existen en la concepción teológica, antropológica y en su cosmovisión.\nEl libro se refiere a los pilares de este movimiento contracultural, como el gnosticismo, el orientalismo, la curación a través de la energía y la reencarnación,  para que el católico pueda captar con rapidez las variadas ofertas que presenta.\nEl movimiento denominado Nueva Era es un supermercado de espiritualidades que ofrece adivinación, magia, pseudociencia, “curación”, ángeles, etc.\nEl autor demuestra la conexión que existe entre la Masonería y la Nueva Era. Este movimiento es un gran engaño para el cristiano que quiere seguir a Cristo toda su vida.\nLa presentación del libro está a cargo de Mons. Melanio Medina, obispo de Misiones (Paraguay). El autor: José Tomás Martínez Zárate; es licenciado en Ciencias Políticas, por la Universidad Católica Nuestra Señora de la Asunción. Fue coordinador nacional de la Renovación Carismática Católica de Paraguay y Secretario Ejecutivo de Laicos ante la Conferencia Episcopal. Fue miembro del Consejo de la Pastoral del Exorcismo. Se dedica a la evangelización hace 28 años. Es autor de varios libros espirituales."
+  {
+    "titulo": "El Gran Engaño",
+    "imagen": "../assets/libro1.webp",
+    "descripcion": "El autor explica la manera sutil en que la Nueva Era se introduce en nuestra sociedad y en algunos casos, incluso en la propia Iglesia. Los fenómenos de la Nueva Era se exponen y comparan con la doctrina católica para discernir las profundas diferencias que existen en la concepción teológica, antropológica y en su cosmovisión.\nEl libro se refiere a los pilares de este movimiento contracultural, como el gnosticismo, el orientalismo, la curación a través de la energía y la reencarnación, para que el católico pueda captar con rapidez las variadas ofertas que presenta.\nEl movimiento denominado Nueva Era es un supermercado de espiritualidades que ofrece adivinación, magia, pseudociencia, “curación”, ángeles, etc.\nEl autor demuestra la conexión que existe entre la Masonería y la Nueva Era. Este movimiento es un gran engaño para el cristiano que quiere seguir a Cristo toda su vida.\nLa presentación del libro está a cargo de Mons. Melanio Medina, obispo de Misiones (Paraguay).",
+    "link": "https://www.amazon.com/-/es/Jos%C3%A9-Tom%C3%A1s-Mart%C3%ADnez-Zarate-ebook/dp/B0DL41XL5N/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=21S0MC2FRH9D&dib=eyJ2IjoiMSJ9.vKe-DrcNOvhSEa5PtTuu4FNq8wDMaiZkgPHZWlpDMt9JUld4lIYDvib-XgTUwsUKKIYZqPwKTcxurCe4QGeBH_kQiVt7qNoSRR-LXnvWGqQVAbegoGmv6XVPBCkQsMxjFOxzDWedFPbx-lMTZkI1uC32dTLGMBxVE0sI07Nv0ym0bJeFo7Yr0wDWOt93ssW7T1Oa_D3Ds7vA7Na-0vCAk6RaT--m6dW15Bx4wjV1oRY.KI5dmgn1NEPlg15jrrXv2k7PrLHjAwHGuVCuD1Gp-u8&dib_tag=se&keywords=el+gran+enga%C3%B1o&qid=1755554908&sprefix=el+gran+enga%C3%B1o%2Caps%2C276&sr=8-3"
+  },
+  {
+    "titulo": "Yoga ¿Puede un Cristiano Practicarlo?",
+    "imagen": "../assets/libro2.webp",
+    "descripcion": "El autor, basándose en los libros del hinduismo, demuestra que el yoga es un camino de ascesis y método de contemplación en esa religión y que todos sus elementos están cargados de religiosidad, así como la respiración (pranayama), la concentración (ekagrata), las posturas (asana), los mantras y mandalas.\nEl yoga fue aceptado en la ortodoxia hinduista porque homologa a los sacrificios de animales o alimentos que se realizaban en el pasado. En este camino de espiritualidad, el yogui ofrece su cuerpo con sus órganos fisiológicos a los dioses del hinduismo.\nAunque en occidente se pretende separar de su religiosidad original, el yoga es inseparable de su finalidad: la unión con la divinidad o la liberación de las reencarnaciones.\nImprimatur: Monseñor Edmundo Valenzuela Mellid, Arzobispo de Asunción.",
+    "link": "https://www.amazon.com/-/es/Jos%C3%A9-Tom%C3%A1s-Mart%C3%ADnez-Z%C3%A1rate-ebook/dp/B0FLRX5XYH/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3K28KLAM8NVU1&dib=eyJ2IjoiMSJ9.nRjtfrihttQckq6dt-3pBKES10PH7GYJfyoxZmQU_tf3YtYG1ijNuu7FNNIwjqe78_bqBNQps3FAdbC-015sow.wI6qBLm-YqLNNM4uPfDtengjRAcZ6Dhat6_xQ1QwuYQ&dib_tag=se&keywords=jose+martinez+zarate&qid=1755555000&sprefix=jose+martinez+zarate%2Caps%2C275&sr=8-2"
+  },
+  {
+    "titulo": "La Masonería, Lo que el Cristiano debe conocer",
+    "imagen": "../assets/libro3.webp",
+    "descripcion": "La Masonería es una sociedad secreta, aunque sus adeptos la definen como discreta. En este libro el autor desmiente a aquellos masones que dicen que la Iglesia católica ya les ha perdonado y que permite la doble pertenencia a sus fieles.\nContiene algunos documentos de la Iglesia católica que han condenado a la Masonería desde 1738 hasta nuestros días. El autor confronta las enseñanzas de la masonería con los principios católicos para demostrar la incompatibilidad que existe entre ambas.\nSe exponen los elementos utilizados en la asociación masónica con sus denominaciones en clave. En el libro se transcriben discursos de ciertos autores masones que elogian a Lucifer como el dios bueno y a Adonai como el dios malo.\nLa Masonería ha permeado toda la sociedad con su filosofía relativista y en algunos países sus miembros han copado los cargos públicos más elevados.",
+    "link": "https://www.amazon.com/dp/ZZZZZZZZ"
+  },
+  {
+    "titulo": "El Poder de Dios sobre Satanás",
+    "imagen": "../assets/libro4.webp",
+    "descripcion": "Es un libro cargado de testimonios del autor, quien inició un camino de conversión luego de haber vivido una vida alejada de Dios. Relata sus experiencias con jóvenes que han participado en sectas satánicas y las liberaciones que se dieron en muchos de ellos.\nEl libro es accesible para cualquier tipo de lector, razón por la cual ha tenido varias reimpresiones. Además, de manera breve se expone la doctrina católica sobre el demonio y su acción maléfica en el mundo.\nSe denuncia además, los errores doctrinales en que incurren algunos teólogos que niegan la existencia del demonio.\nImprimatur: Monseñor Felipe Santiago Benítez, arzobispo de Asunción.",
+    "link": "https://www.amazon.com/dp/AAAAAAAA"
+  },
+  {
+    "titulo": "Ministerio de Liberación",
+    "imagen": "../assets/libro5.webp",
+    "descripcion": "Es un compendio de las enseñanzas que el autor ha realizado en diversos retiros y conferencias sobre la existencia del demonio. Pone un énfasis en las diferencias que existen entre la oración de liberación y el exorcismo. Además, es una guía práctica para aquellas personas que quieren formar un ministerio de liberación en la Renovación Carismática Católica y de esa manera evitar los abusos y exageraciones que se puedan dar dentro del movimiento eclesial.\nSe explica la acción ordinaria y extraordinaria del demonio, el maleficio y las supersticiones. Además, llama la atención a las diferencias y a las semejanzas que existen entre una acción del demonio y una herida interior.\nImprimatur: Monseñor Pastor Cuquejo, arzobispo de Asunción.",
+    "link": "https://www.amazon.com/dp/BBBBBBBB"
+  },
+  {
+    "titulo": "Renovación Carismática, Seminario de Vida en el Espíritu Santo",
+    "imagen": "../assets/libro6.webp",
+    "descripcion": "Una guía introductoria para el Seminario de Vida en el Espíritu Santo, con reflexiones y enseñanzas para la Renovación Carismática Católica.\nContiene meditaciones, oraciones y pautas prácticas para acompañar la vida espiritual del cristiano.",
+    "link": "https://www.amazon.com/dp/CCCCCCCC"
+  }
+]
 
-    },
-    {
-      "titulo": "Yoga ¿Puede un Cristiano Practicarlo?",
-      "imagen": "../assets/libro2.webp",
-      "descripcion": "La presentación está a cargo de Fray Nelson Medina, teólogo colombiano y del obispo paraguayo Monseñor Gabriel Escobar.\nEl autor, basándose en los libros del hinduismo, demuestra que el yoga es un camino de ascesis y método de contemplación en esa religión y que todos sus elementos están cargados de religiosidad, así como la respiración (pranayama), la concentración (ekagrata), las posturas (asana), los mantras y mandalas.\nEl yoga fue aceptado en la ortodoxia hinduista porque  homologa a los sacrificios de animales o alimentos que se realizaban en el pasado. En este camino de espiritualidad, el yogui ofrece su cuerpo con sus órganos fisiológicos a los dioses del hinduismo.\nAunque en occidente se pretende separar de su religiosidad original,  el yoga es inseparable de su finalidad, la unión con la divinidad o la liberación de las reencarnaciones.\nImprimatur: Monseñor Edmundo Valenzuela Mellid, Arzobispo de Asunción.\nEl autor: José Tomás Martínez Zárate; es licenciado en Ciencias Políticas, por la Universidad Católica Nuestra Señora de la Asunción. Fue coordinador nacional de la Renovación Carismática Católica de Paraguay y Secretario Ejecutivo de Laicos ante la Conferencia Episcopal. Fue miembro del Consejo de la Pastoral del Exorcismo. Se dedica a la evangelización hace 28 años. Es autor de varios libros espirituales.\n"
-    },
-    {
-      "titulo": "La Masoneria, Lo que el Cristiano debe conocer ",
-      "imagen": "../assets/libro3.webp",
-      "descripcion": "La Masonería es una sociedad secreta, aunque sus adeptos lo definen como discreta. En este libro el autor desmiente a aquellos masones que dicen que la Iglesia católica ya les ha perdonado y que permite la doble pertenencia a sus fieles.\nContiene algunos documentos de la Iglesia católica que han condenado a la Masonería desde 1738 hasta nuestros días. El autor confronta las enseñanzas de la masonería con los principios católicos para demostrar la incompatibilidad que existe entre ambas. Se exponen los elementos utilizados en la asociación masónica con sus denominaciones en clave. En el libro se transcriben discursos de ciertos autores masones que elogian a Lucifer como el dios bueno y a Adonai como el dios malo.\nLa Masonería ha permeado toda la sociedad con su filosofía relativista y en algunos países sus miembros han copado los cargos públicos más elevados. Por este motivo, todo católico debe conocer sus propósitos y su doctrina maléfica para poder enfrentar e impedir el contagio de esta mortal epidemia como decía el Papa León XIII.\nEl autor: José Tomás Martínez Zárate; es licenciado en Ciencias Políticas, por la Universidad Católica Nuestra Señora de la Asunción. Fue coordinador nacional de la Renovación Carismática Católica de Paraguay y Secretario Ejecutivo de Laicos ante la Conferencia Episcopal. Fue miembro del Consejo de la Pastoral del Exorcismo. Se dedica a la evangelización hace 28 años. Es autor de varios libros espirituales."
-    },
-    {
-      "titulo": "El Poder de Dios sobre Satanás",
-      "imagen": "../assets/libro4.webp",
-      "descripcion": "Es un libro cargado de testimonios del autor, quien inició un camino de  conversión luego de haber vivido una vida alejada de Dios. Relata sus experiencias con jóvenes que han participado en sectas satánicas y las liberaciones que se dieron en muchos de ellos. El libro es accesible para cualquier tipo de lector, razón por la cual ha tenido varias reimpresiones. Además, de manera breve se expone la doctrina católica sobre el demonio y su acción maléfica en el mundo. Se denuncia además, los errores doctrinales en que incurren algunos teólogos que niegan la existencia del demonio.\nImprimatur: Monseñor Felipe Santiago Benítez, arzobispo de Asunción\nEl autor: José Tomás Martínez Zárate; es licenciado en Ciencias Políticas, por la Universidad Católica Nuestra Señora de la Asunción. Fue coordinador nacional de la Renovación Carismática Católica de Paraguay y Secretario Ejecutivo de Laicos ante la Conferencia Episcopal. Fue miembro del Consejo de la Pastoral del Exorcismo. Se dedica a la evangelización hace 28 años. Es autor de varios libros espirituales."
-      },
-      {
-        "titulo": "Ministerio de Liberación",
-        "imagen": "../assets/libro5.webp",
-        "descripcion": "Es un compendio de las enseñanzas que el autor ha realizado en diversos retiros y conferencias sobre la existencia del demonio. Pone un énfasis en las diferencias que existen entre la oración de liberación y el exorcismo. Además, es una guía práctica para aquellas personas que quieren formar un ministerio de liberación en la Renovación Carismática Católica y de esa manera evitar los abusos y exageraciones que se puedan dar dentro del movimiento eclesial.\nSe explica la acción ordinaria y extraordinaria del demonio, el maleficio y las supersticiones. Además, llama la atención a las diferencias y a las semejanzas que existen entre una acción del demonio y una herida interior. El libro indica quiénes pueden realizar una oración de liberación y qué requisitos se exigen para hacerlo.\nImprimatur: Monseñor Pastor Cuquejo, arzobispo de Asunción.\nEl autor: José Tomás Martínez Zárate; es licenciado en Ciencias Políticas, por la Universidad Católica Nuestra Señora de la Asunción. Fue coordinador nacional de la Renovación Carismática Católica de Paraguay y Secretario Ejecutivo de Laicos ante la Conferencia Episcopal. Fue miembro del Consejo de la Pastoral del Exorcismo. Se dedica a la evangelización hace 28 años. Es autor de varios libros espirituales."
-      },
-      {
-        "titulo": "Renovación Carismática, Seminario de Vida en el Espíritu Santo",
-        "imagen": "../assets/libro6.webp",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit soluta ipsa ad vero aliquam repellendus ducimus, praesentium, reiciendis nostrum asperiores est? Sapiente magni provident consequatur amet unde sit autem fugit."
-      }
-  ]
