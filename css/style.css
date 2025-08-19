@@ -63,17 +63,22 @@ ul .dropdown-menu.show {
   background-repeat: no-repeat;
   padding: 0;
 }
-/* === VIDEO DE PORTADA FULLSCREEN === */
-.video-contenedor {
+/* === VIDEO DE PORTADA  === */
+
+
+
+.video-port {
   width: 100%;
-  height: 100vh; /* Ocupa toda la altura de la pantalla */  
+  height: 100%;
+}
+.tit-text{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3rem;
 }
 
-.video-port {  
-  width: 100%;
-  height: 100vh;
-  
-}
+
 /* Footer */
 footer {
   background-color: #f2f6fa; 
@@ -403,30 +408,14 @@ form .btn-primary:hover {
 @media (max-width: 768px) {
   * {
     font-size: 16px;
-  }
-
-  .video-contenedor {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('../assets/fondoR.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  } 
 
   .video-port {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%, -50%);
-    object-fit: contain;
-    background-image: url('../assets/fondoR.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+  }
+  .tit-text{
+    font-size: 1.5rem;
   }
  footer .pie-redes img {
     max-width: 35px;
@@ -439,10 +428,12 @@ form .btn-primary:hover {
   #discografia {
     padding: 5px;
   }
+  footer p.text-pie{
+  padding: 10px;
+  text-align: justify;
 }
-.text-pie{
-  padding: 5px;
 }
+  
 
 /* Tablets */
 @media (min-width: 768px) {
