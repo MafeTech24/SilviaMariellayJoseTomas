@@ -409,16 +409,33 @@ form .btn-primary:hover {
   * {
     font-size: 16px;
   } 
-
+  .index1{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .index{
+    flex: 1;
+  }
   .video-port {
     max-width: 100%;
     height: auto;
   }
   .tit-text{
     font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
  footer .pie-redes img {
     max-width: 35px;
+  }
+  .text-redes{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
   }
 
   .sangria{
@@ -445,6 +462,7 @@ form .btn-primary:hover {
     max-width: 480px;
     height: 270px;
   }
+  
 }
 
 /* Notebooks y monitores */
