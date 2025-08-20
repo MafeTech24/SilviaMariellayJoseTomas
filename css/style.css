@@ -63,9 +63,6 @@ ul .dropdown-menu.show {
   background-repeat: no-repeat;
   padding: 0;
 }
-/* === VIDEO DE PORTADA  === */
-
-
 
 .video-port {
   width: 100%;
@@ -77,7 +74,6 @@ ul .dropdown-menu.show {
   font-style: italic;
   font-size: 3rem;
 }
-
 
 /* Footer */
 footer {
@@ -112,25 +108,6 @@ footer .pie-redes img:hover {
   transform: scale(1.05);
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
 }
-
-/* Contacto */
-.inputForm{
-  background-color: #ffffff;
-}
-.mail {
-  text-decoration: none;
-}
-#texto-contacto{
-  font-weight: bold;
-}
-form .btn-primary {
-  border: none;
-}
-
-form .btn-primary:hover {
-  background-color: #A52A2A;
-}
-
 
 /* Biografías */
 .sil::before,
@@ -173,6 +150,17 @@ form .btn-primary:hover {
   color: #0956FC; 
   cursor: pointer;
 }
+  .icono {
+    display: inline-block;
+    margin-left: 6px;
+    animation: pulse 1.2s infinite;
+    color: #555;
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
 /* ===== Carrusel popup ===== */
 .carousel-popup {
   display: none;
@@ -193,9 +181,6 @@ form .btn-primary:hover {
 }
 .carousel-popup.active {
   display: block !important;
-}
-.versiculo-texto.activo {
-  color: #0956fc; /* El mismo color que el hover */
 }
 /* ===== Imágenes de portada con hover elegante ===== */
 .portada-img {
@@ -341,11 +326,6 @@ form .btn-primary:hover {
 .modal-header .btn-close {
   z-index: 2;
 }
-/*.btn2{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: auto; /* Asegura que los botones estén al final del card */
 
 .btn-custom {
   background-color: #f2f6fa;
@@ -386,10 +366,6 @@ form .btn-primary:hover {
   z-index: 1100;
 }
 
-/* Al hacer clic en móvil */
-.versiculo-texto.active {
-  color: #007bff; /* color para cuando está activo en móvil */
-}
 .carousel-popup.active {
   display: block !important;
 }
