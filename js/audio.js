@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const audio = document.getElementById('audioFondo');
+    const audio = document.getElementById('audioFondo1');
   
     // Solo hace algo si existe el audio
     if (!audio) return;

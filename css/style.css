@@ -268,6 +268,11 @@ footer .pie-redes img:hover {
 .tracklist a:active {
   color: #14833b;             /* Color al hacer click */
 }
+.bi-spotify{
+  color:#1DB954; 
+  font-size: 1.5em;
+}
+
 #discografia {
   background-color: #ffffff;
   padding: 2rem;
@@ -414,6 +419,10 @@ footer .pie-redes img:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
   }
+  .bi-spotify{
+  font-size: 1;
+  padding: 5px;
+}
  footer .pie-redes img {
     max-width: 35px;
   }

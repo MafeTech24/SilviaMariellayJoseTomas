@@ -1,8 +1,71 @@
-[
+[{
+    "titulo": "No te dejaré Jesús",
+    "portada": "../assets/portadaAlbums/noTeDejareJesus.webp"
+  },
+  {
+    "titulo": "Soy Tu Dios, Tu Sanador",
+    "portada": "../assets/portadaAlbums/soyTuDios.webp"
+  },
+   {
+    "titulo": "Nos envías por el mundo...",
+    "portada": "../assets/portadaAlbums/nosEnvias.webp"
+  },
+   {
+    "titulo": "Abrid las Puertas al Redentor",
+    "portada": "../assets/portadaAlbums/abridLasPuertas.webp"
+  },
+   {
+    "titulo": "Alaba Mi Alma al Señor",
+    "portada": "../assets/portadaAlbums/alabaMiAlma.webp"
+  },
+   {
+    "titulo": "A Ti Reina de América",
+    "portada": "../assets/portadaAlbums/reinaDeAmerica.webp"
+  },
+   {
+    "titulo": "Para sanarte, debes perdonar",
+    "portada": "../assets/portadaAlbums/paraSanarte.webp"
+  },
+   {
+    "titulo": "Pueblos Canten a Dios",
+    "portada": "../assets/portadaAlbums/pueblosCanten.webp"
+  },
+   {
+    "titulo": "Adorémoslo",
+    "portada": "../assets/portadaAlbums/adoremoslo.webp"
+  },
+   {
+    "titulo": "Dios se ocupa de Mi",
+    "portada": "../assets/portadaAlbums/diosSeOcupa.webp"
+  },
+   {
+    "titulo": "Señor te doy Gracias",
+    "portada": "../assets/portadaAlbums/señorTeDoyGracias.webp"
+  },
+   {
+    "titulo": "Quiero vivir bajo su Sombra",
+    "portada": "../assets/portadaAlbums/quieroVivir.webp"
+  },
+   {
+    "titulo": "Alabaré, Alabaré, Alabaré a Mi Señor",
+    "portada": "../assets/portadaAlbums/alabare.webp"
+  },
+   {
+    "titulo": "Los amiguitos de Jesús - Canciones para Niños",
+    "portada": "../assets/portadaAlbums/losAmiguitos.webp"
+  },
+   {
+    "titulo": "Corazón de Novia",
+    "portada": "../assets/portadaAlbums/corazonDeNovia.webp"
+  },
+   {
+    "titulo": "Hasta el Cielo no Paramos",
+    "portada": "../assets/portadaAlbums/hastaElCielo.webp"
+  },
   {
     "titulo": "Corazón de Novia",
     "anio": 2018,
-    "portada": "../assets/corazonDeNovia.webp",
+    "portada": "../assets/portadaAlbums/corazonDeNovia.webp",
     "url": "https://open.spotify.com/intl-es/album/0lQ1RHuwucpNhaLCThCJko?si=fEV5ZwynT9Ksq61K7sja_A",
     "canciones": [
       { "nombre": "En Tí soy más que Vencedor", "url": "https://open.spotify.com/intl-es/track/5LFWXraDsUhD0zpupb0UO7?si=ea16ea0ea3014a36" },
@@ -22,7 +85,7 @@
   {
     "titulo": "Hasta el cielo ¡No Paramos!",
     "anio": 2022,
-    "portada": "../assets/hastaElCielo.webp",
+    "portada": "../assets/portadaAlbums/hastaElCielo.webp",
     "url": "https://open.spotify.com/intl-es/album/0TMH45FG9i6zekfCT1c3e8?si=uqkYEXOZSkiYmXL9h8kMHQ",
     "canciones": [
       { "nombre": "Hasta el cielo ¡No Paramos!", "url": "https://open.spotify.com/intl-es/track/3gWTRZYfZUFINeSBMQ4R0r?si=3c0bffc83d304bfc" },
@@ -42,7 +105,7 @@
   {
     "titulo": "Sencillos y EP",
     "anio": "2021-2025",
-    "portada": "../assets/cantando.webp",
+    "portada": "../assets/portadaAlbums/cantando.webp",
     "url": "https://open.spotify.com/intl-es/album/0TMH45FG9i6zekfCT1c3e8?si=uqkYEXOZSkiYmXL9h8kMHQ",
     "canciones": [
       { "nombre": "Mi Esperanza (2025)", "url": "https://open.spotify.com/intl-es/album/6cRqLxSmikhfzPN0sp2C4O?si=02I2TNrDQRyCFU7g5ILjlw" },
