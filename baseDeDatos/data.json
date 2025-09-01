@@ -31,7 +31,7 @@
     { "id": 30, "img": "../assets/paises/republicaDominicana.webp", "pais": "República Dominicana", "bandera": "https://flagcdn.com/w40/do.png" },
     { "id": 31, "img": "../assets/paises/israel-tierraSanta.webp", "pais": "Tierra Santa", "bandera": "https://flagcdn.com/w40/il.png" },
     { "id": 32, "img": "../assets/paises/vaticano.webp", "pais": "Vaticano", "bandera": "https://flagcdn.com/w40/va.png" },
-    { "id": 33, "img": "../assets/paises/paraguay2.webp", "pais": "Paraguay", "bandera": "https://flagcdn.com/w40/py.png" }
-
+    { "id": 33, "img": "../assets/paises/paraguay2.webp", "pais": "Paraguay", "bandera": "https://flagcdn.com/w40/py.png" },
+    { "id": 34, "img": "../assets/paises/brasil2.webp", "pais": "Río de Janeiro JMJ 2013", "bandera": "https://flagcdn.com/w40/br.png" }
   ]
   

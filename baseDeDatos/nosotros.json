@@ -1,15 +1,15 @@
 [
     {
       "id": "img01",
-      "src": "../assets/nosotros/nos1.webp"
+      "src": "../assets/nosotros/nos1m.webp"
     },
     {
       "id": "img02",
-      "src": "../assets/nosotros/nos2.webp"
+      "src": "../assets/nosotros/nos2m.webp"
     },
     {
       "id": "img03",
-      "src": "../assets/nosotros/nos3.webp"
+      "src": "../assets/nosotros/nos3m.webp"
     },
     {
       "id": "img04",
@@ -17,31 +17,31 @@
     },
     {
       "id": "img05",
-      "src": "../assets/nosotros/nos5.webp"
+      "src": "../assets/nosotros/nos5m.webp"
     },
     {
       "id": "img06",
-      "src": "../assets/nosotros/nos6.webp"
+      "src": "../assets/nosotros/nos6m.webp"
     },
     {
       "id": "img07",
-      "src": "../assets/nosotros/nos7.webp"
+      "src": "../assets/nosotros/nos7m.webp"
     },
     {
       "id": "img08",
-      "src": "../assets/nosotros/nos8.webp"
+      "src": "../assets/nosotros/nos8m.webp"
     },
     {
       "id": "img09",
-      "src": "../assets/nosotros/nos9.webp"
+      "src": "../assets/nosotros/nos9m.webp"
     },
     {
       "id": "img10",
-      "src": "../assets/nosotros/nos10.webp"
+      "src": "../assets/nosotros/nos10m.webp"
     },
     {
       "id": "img11",
-      "src": "../assets/nosotros/nos11.webp"
+      "src": "../assets/nosotros/nos11m.webp"
     }
   ]
 

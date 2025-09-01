@@ -147,6 +147,7 @@ footer .pie-redes img:hover {
 .texto-bioNos {
   text-align: justify;
   padding: 15px;
+  margin-top: 20px;
 }
 .versiculo-texto {
   transition: color 0.3s ease;
@@ -355,12 +356,11 @@ footer .pie-redes img:hover {
   width: 85%;
   max-width: 900px;
   aspect-ratio: 3 / 2;
-  margin: 2rem auto;
-  padding: 20px; /* espacio interno */
+  margin: .5rem auto;
+  padding: 10px;
   position: relative;
   border-radius: 20px;
   background-color: #fcfcf9;
-  padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -399,20 +399,14 @@ footer .pie-redes img:hover {
 }
 
 
-#imagenes img.activa {
-  display: block;
-  opacity: 1;
-}
-
 .boton {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
+  background-color: #d4dde7;
   border: none;
-  padding: 10px 15px;
-  font-size: 1.5rem;
+  padding: 10px;
+  font-size: 1rem;
   border-radius: 50%;
   cursor: pointer;
   z-index: 2;
@@ -420,15 +414,17 @@ footer .pie-redes img:hover {
 }
 
 .boton:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #e9dadb;
+  color: #8B0000;
+
 }
 
 #anterior {
-  left: 10px;
+  left: 5px;
 }
 
 #siguiente {
-  right: 10px;
+  right: 5px;
 }
 
 .video-nosotros {
@@ -553,13 +549,31 @@ footer .pie-redes img:hover {
   text-align: justify;
 }
 #carruselNos {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     border-radius: 12px;
     box-shadow: none;
     background-color: transparent;
     border: none;
     margin: 1rem auto;
+  }
+
+  #imagenes img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  .boton {
+    display: none !important;
+  }
+
+  #imagenes img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  .boton {
+    display: none !important;
   }
 
   #imagenes img {
