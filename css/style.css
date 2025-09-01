@@ -111,7 +111,6 @@ footer .pie-redes img:hover {
 
 /* Biografías */
 .sil::before,
-.contact::before,
 .tomas::before,
 .index::before,
 .nosotros::before {
@@ -140,8 +139,12 @@ footer .pie-redes img:hover {
   filter: brightness(0.3);
 }
 
-.sangria {
+.sangria{
   text-indent: 7em;
+  text-align: justify;
+  padding: 15px;
+}
+.texto-bioNos {
   text-align: justify;
   padding: 15px;
 }
@@ -347,6 +350,112 @@ footer .pie-redes img:hover {
   background-color: #e1e6eb; /* un poquito más oscuro al pasar el mouse */
   border-color: #aaa;
 }
+/* Nosotros */
+#carruselNos {
+  width: 85%;
+  max-width: 900px;
+  aspect-ratio: 3 / 2;
+  margin: 2rem auto;
+  padding: 20px; /* espacio interno */
+  position: relative;
+  border-radius: 20px;
+  background-color: #fcfcf9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  backdrop-filter: blur(6px);
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagenes {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#imagenes img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: none;
+  position: absolute;
+  border-radius: 15px;
+  transition: opacity 1s ease-in-out, transform 1s ease;
+  transform: scale(0.98);
+  opacity: 0;
+}
+
+#imagenes img.activa {
+  display: block;
+  opacity: 1;
+}
+
+
+#imagenes img.activa {
+  display: block;
+  opacity: 1;
+}
+
+.boton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#anterior {
+  left: 10px;
+}
+
+#siguiente {
+  right: 10px;
+}
+
+.video-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-video {
+  width: 90%;
+  max-width: 900px;
+  background-color: #fcfcf9;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.container-video video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
 
 /* Responsive */
 /* Teléfonos */
@@ -443,6 +552,24 @@ footer .pie-redes img:hover {
   padding: 10px;
   text-align: justify;
 }
+#carruselNos {
+    width: 90%;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+    margin: 1rem auto;
+  }
+
+  #imagenes img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  .boton {
+    display: none !important;
+  }
 }
   
 
@@ -470,7 +597,3 @@ footer .pie-redes img:hover {
     height: 360px;
   }
 }
-
-
-
-
