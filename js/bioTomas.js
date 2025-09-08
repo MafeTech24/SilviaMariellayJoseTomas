@@ -21,7 +21,7 @@ biografiaTomas.innerHTML = `<p class="texto-bioTomas">José Tomás Martínez Zá
             
             Como todo joven, buscó en las fiestas la alegría de vivir, y eso trajo aparejado unos hábitos pecaminosos que casi le cuesta la separación de su familia.  
             
-            Cuando su matrimonio iba camino al fracaso, fue invitado por su esposa Marta a pedir ayuda en un grupo de oración de la Renovación Carismática, y fue en ese Movimiento eclesial donde tuvo su encuentro personal con el Señor. Su esposa Marta falleció de cáncer en el año 2013; en el año 2023 contrajo segundas nupcias con Silvia Mariella Vera Díaz. 
+            Cuando su matrimonio iba camino al fracaso, fue invitado por su esposa Marta a pedir ayuda en un grupo de oración de la Renovación Carismática, y fue en ese Movimiento eclesial donde tuvo su encuentro personal con el Señor. Su esposa Marta falleció de cáncer en el año 2013; en el año 2022 contrajo segundas nupcias con Silvia Mariella Vera Díaz. 
             
             Fue Coordinador Nacional de la RCC del Paraguay y miembro del Consejo Latinoamericano de la R.C.C,  Coordinador Nacional de Laicos y sirvió como miembro del Consejo en la Pastoral del Exorcismo en la Arquidiócesis de Asunción.  
             
